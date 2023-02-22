@@ -11,17 +11,18 @@ body,html
   width: 250px;
   height: 80px;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 30px;
   position: absolute;
   top: 500px;
-  left: 20%;
+  left: 49%;
   font-family: monospace;
-  border-radius: 5px;
+  border-radius: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: center;
   justify-content: center;
+  box-shadow: 5px 5px black;
 }
 .botton1 
 {
@@ -31,17 +32,18 @@ body,html
   width: 250px;
   height: 80px;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 30px;
   position: absolute;
   top: 500px;
-  left: 50%;
+  left: 70%;
   font-family: monospace;
-  border-radius: 5px;
+  border-radius: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: center;
   justify-content: center;
+  box-shadow: 5px 5px black;
 }
 .title
 {
@@ -49,12 +51,13 @@ body,html
   text-align: center;
   width: 450px;
   height: 170px;
-  font-size: 50px;
+  font-size: 90px;
   position: absolute;
-  left:330px;
+  left:790px;
   top: 200px;
   display:flex;
   flex-direction: row;
+  text-shadow: 6px 6px rgb(5, 41, 119);
 }
 .mensagem
 {
@@ -62,23 +65,18 @@ body,html
     text-align: center;
     width: 450px;
     height: 170px;
-    font-size: 35px;
+    font-size: 40px;
     position: absolute;
-    left:265px;
-    top: 380px;
+    left:830px;
+    top: 390px;
     display:flex;
     flex-direction: row;
+    text-shadow: 7px 7px rgb(3, 2, 2);
 }
 .fundo
 {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color:blue;
-}
-.imagem
-{ 
-    width: 350px; 
-    left: 1050px;
-    position: absolute;
+    background-color:rgb(10, 69, 124);
 }

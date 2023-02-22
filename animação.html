@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5; URL='inicio.html'"/>
+    
     <title>Animation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
     <style>
         .fundo
         {
-            background-color: black;
+            background-color:rgba(201, 16, 16, 0.575);
           width: 100%;
   height: 100%;
   position: absolute;
@@ -21,20 +25,25 @@
   justify-content: center;  
         }
         .imagem{
+            left: 40%;
             position: absolute;
-            animation: circle 8s infinite;
+            animation: anima 5s;
         }
-        @keyframes circle
+        @keyframes anima
         {
-            0%{top: 10%;}
+            0% {top: 10px;}
+            30% {top: 50%;}
+            60% {top:45%; rotate: 360deg;}
+            95% {rotate: 360deg; top: 40%}
+            100% {rotate: 360deg; top: -150px;}
         }
     </style>
 </head>
 <body>
     <div class="fundo">
         <div class="imagem">
-            <img src="1_e_Loq49BI4WmN7o9ItTADg.gif"
-            width="700px">
+            <img src="camera-removebg-preview.png"
+            width="300px">
         </div>
     </div>
 </body>
