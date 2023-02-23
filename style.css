@@ -23,6 +23,7 @@ body,html
   align-content: center;
   justify-content: center;
   box-shadow: 5px 5px black;
+  animation: slideInLeft 1s;
 }
 .botton1 
 {
@@ -44,6 +45,7 @@ body,html
   align-content: center;
   justify-content: center;
   box-shadow: 5px 5px black;
+  animation: slideInLeft 1s;
 }
 .title
 {
@@ -58,6 +60,7 @@ body,html
   display:flex;
   flex-direction: row;
   text-shadow: 6px 6px rgb(5, 41, 119);
+  animation: slideInLeft 1s;
 }
 .mensagem
 {
@@ -72,6 +75,7 @@ body,html
     display:flex;
     flex-direction: row;
     text-shadow: 7px 7px rgb(3, 2, 2);
+    animation: slideInLeft 1s;
 }
 .fundo
 {
