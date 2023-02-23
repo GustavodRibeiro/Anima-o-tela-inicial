@@ -59,7 +59,7 @@ body,html
   top: 200px;
   display:flex;
   flex-direction: row;
-  text-shadow: 6px 6px rgb(5, 41, 119);
+  text-shadow: 6px 6px black;
   animation: slideInLeft 1s;
 }
 .mensagem
